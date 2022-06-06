@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(10, 187, 119);
+}
+h1{
+color: rgb(0, 153, 255);
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+H1 b{
+    color: rgb(200, 244, 250);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: rgb(193, 221, 236);
+    height: 80px;
+    border-radius: 43px;
+    border:  2px solid rgb(4, 0, 255);
+}
+form {
+
+    border-radius: 49px;
+    text-align: center;
+    width: 94%;
+    background-color: #0111f1;
+    -webkit-box-shadow: 0px 2px 2px 2px rgba(14, 8, 36, 0.5);
+-moz-box-shadow: 0px 2px 2px 2px rgba(19, 16, 145, 0.5);
+box-shadow: 0px 2px 2px 2px rgba(4, 18, 99, 0.5);
+    padding: 20px;
+    color: #fff;
+   border: 1px rgb(4, 0, 255);
+  }
+  form input::placeholder {
+    width: 15em;
+    margin: 3px;
+    height: 2em;
+    color: #000000;
+  }
+  form input{
+      border-radius: 4px;
+  }
+  .prin{
+background-color: #0111f1;
+-webkit-box-shadow: inset 0px -1px 5px 8px rgba(0,0,0,0.24);
+-moz-box-shadow: inset 0px -1px 5px 8px rgba(0,0,0,0.20);
+box-shadow: inset 0px -1px 5px 8px rgba(0,0,0,0.44);
+Copiar texto
+margin: 50px;
+height: 400px;
+border-radius: 10px;
+  }
+.prin h3{
+    text-align: center;
+    color: rgb(200, 244, 250);
+}
+.prin .img {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prin .img img{
+    border-radius: 15px;
+}
+.prin p{
+    color: aqua;
+    text-align: center;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    margin: 50px;
+    border-radius: 5px;
+}
+footer a{
+    display: inline;
+    display: grid;
+    place-items: center;
+    color: rgba(207, 212, 238, 0.829);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
